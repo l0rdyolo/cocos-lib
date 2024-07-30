@@ -11,6 +11,8 @@ export class Cell extends Component implements ICell {
     public gridX: number;
     public gridY: number;
 
+    private todo : boolean;
+
     constructor(x: number, y: number, position: Vec3, isWalkable: boolean = true) {
         super();
         this.gridX = x;
